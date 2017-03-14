@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="container">
+        <div class="row hidden-xs">
+            <div class="col-md-8 "><img src="images/logo.jpg" width="100%" alt=""></div>
+            <div class="col-md-4 ">电话</div>
+        </div>
+    </div>
+    <!--导航-->
+    <div class="navbar navbar-default dh">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">公司简介</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">尖端技术 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">产品展示</a></li>
+                    <li><a href="#">检测项目</a></li>
+                    <li><a href="#">治理项目</a></li>
+                    <li><a href="#">新闻动态</a></li>
+                    <li><a href="#">工程案例</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</div>
+<!--轮播图-->
+<div class="swiper-container mg-b-20">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('images/jd1.jpg');"></div>
+        <div class="swiper-slide" style="background-image:url('images/jd2.jpg');"></div>
+        <div class="swiper-slide" style="background-image:url('images/jd3.jpg');"></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+</div>
+
+<!--主体-->
+<div class="container">
+    <!--选项卡-->
+    <div class="tabs-container eptabs mg-b-15">
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">最新资讯</a>  </li>
+            <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">公司简介</a> </li>
+            <span class="pull-right visible-sm">100%达标健康环保产品</span>
+        </ul>
+        <div class="tab-content">
+            <div id="tab-1" class="tab-pane active">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/181545088383.jpeg" width="100%" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="news">
+                                <li><a href="#">它的致癌风险大于竟大于甲醛</a> <span>12-18</span></li>
+                                <li><a href="#">室内污染“八大综合征”</a><span>12-18</span></li>
+                                <li><a href="#">新房装修过后你就入住很傻很天真</a><span>12-18</span></li>
+                                <li><a href="#">家居装修窗帘怎么防甲醛？</a><span>12-18</span></li>
+                                <li><a href="#">爱起球易掉色含甲醛</a><span>12-18</span></li>
+                                <li><a href="#">昆明业主问装修污染中的甲醛持续释放 ...</a><span>12-18</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="news">
+                                <li><a href="#">它的致癌风险大于竟大于甲醛</a> <span>12-18</span></li>
+                                <li><a href="#">室内污染“八大综合征”</a><span>12-18</span></li>
+                                <li><a href="#">新房装修过后你就入住很傻很天真</a><span>12-18</span></li>
+                                <li><a href="#">家居装修窗帘怎么防甲醛？</a><span>12-18</span></li>
+                                <li><a href="#">爱起球易掉色含甲醛</a><span>12-18</span></li>
+                                <li><a href="#">昆明业主问装修污染中的甲醛持续释放 ...</a><span>12-18</span></li>
+                            </ul>
+                            <div class="text-right"><a href="#" >【查看更多】</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-2" class="tab-pane">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/181545088383.jpeg" width="100%" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="text-primary">苏州欧洁源环境工程有限公司</h3>
+                            <p>苏州欧洁源环境工程有限公司是在全国拥有400多家连锁机构的综合性企业。公司全面致力于室内环境的改善、专 注于室内环境污染的治理，集科研开发、生产制造、市场营销和增值服务员一体的具有专业品质的企业。业务覆盖全国大部分地区。公司始终围绕着客户的需求持续创新，是国内第一家提供“开创中国人 居环境新标准”的企业。苏州欧洁源环境工程有限公司通过自主研发的核心优势，凭着多年丰富的行业终端操作经验，公司自主研发生产出室内污染防治全套家具护理、室内空气净化、健康净水、环保电器和汽车污染防治六大系列产品，实现 了多渠道销售的联合业务模式，形成富有第一竞争力的商业运作模式以持续改善室内空气环境、营造绿色环保己任，致力 于室内污染治理领域的产品和应用技术的开发与推广。苏州欧洁源环境工程有限公司根据中国大陆地区实际人居环境现状...</p>
+                            <div class="text-right"><a href="#" >【查看更多】</a></div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--服务项目-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <a href="" class="btn btn-primary btn-xs pull-right">更多 <i class="glyphicon glyphicon-menu-right"></i></a>
+            <h3 class="panel-title"> <i class="fa fa-list-ul"></i> 服务项目</h3>
+
+        </div>
+        <div class="panel-body">
+            <div class="row fwxm">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="pic">
+                            <img src="images/xm01.jpg" alt="...">
+                            <h3>办公场所空气治理</h3>
+                        </div>
+                        <div class="caption">
+                            <p>降解办公场所甲醛、苯、氨、 TVOC等有害气体、去除装修异味、建立长效抗菌防护、长效防霉。</p>
+                            <p><a href="#" class="btn btn-default btn-block btn-sm" role="button">详情</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="pic">
+                            <img src="images/xm01.jpg" alt="...">
+                            <h3>办公场所空气治理</h3>
+                        </div>
+                        <div class="caption">
+                            <p>降解办公场所甲醛、苯、氨、 TVOC等有害气体、去除装修异味、建立长效抗菌防护、长效防霉。</p>
+                            <p><a href="#" class="btn btn-default btn-block btn-sm" role="button">详情</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="pic">
+                            <img src="images/xm01.jpg" alt="...">
+                            <h3>办公场所空气治理</h3>
+                        </div>
+                        <div class="caption">
+                            <p>降解办公场所甲醛、苯、氨、 TVOC等有害气体、去除装修异味、建立长效抗菌防护、长效防霉。</p>
+                            <p><a href="#" class="btn btn-default btn-block btn-sm" role="button">详情</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <div class="pic">
+                            <img src="images/xm01.jpg" alt="...">
+                            <h3>办公场所空气治理</h3>
+                        </div>
+                        <div class="caption">
+                            <p>降解办公场所甲醛、苯、氨、 TVOC等有害气体、去除装修异味、建立长效抗菌防护、长效防霉。</p>
+                            <p><a href="#" class="btn btn-default btn-block btn-sm" role="button">详情</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--功效-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-list-ul"></i> 八大功效</h3>
+        </div>
+        <div class="panel-body">
+            <img src="images/gx.jpg" width="100%" alt="">
+        </div>
+    </div>
+    <!--服务承诺-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-list-ul"></i> 服务承诺</h3>
+        </div>
+        <div class="panel-body">
+            <img src="images/fw.gif" width="100%" alt="">
+        </div>
+    </div>
+    <!--工程案例-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <a href="" class="btn btn-primary btn-xs pull-right">更多 <i class="glyphicon glyphicon-menu-right"></i></a>
+            <h3 class="panel-title"><i class="fa fa-list-ul"></i> 工程案例</h3>
+        </div>
+        <div class="panel-body">
+            <!-- Swiper -->
+            <div class="swiper-container2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/xm04.jpg"alt=""><h3>案例名称</h3></a></div>
+                </div>
+
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--服务流程-->
+    <div class="row">
+        <div class="col-md-4 col-xs-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <a href="" class="btn btn-primary btn-xs pull-right">更多 <i class="glyphicon glyphicon-menu-right"></i></a>
+                    <h3 class="panel-title"><i class="fa fa-list-ul"></i> 除甲醛知识</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="news">
+                        <li><a href="#">它的致癌风险大于竟大于甲醛</a> <span>12-18</span></li>
+                        <li><a href="#">室内污染“八大综合征”</a><span>12-18</span></li>
+                        <li><a href="#">新房装修过后你就入住很</a><span>12-18</span></li>
+                        <li><a href="#">家居装修窗帘怎么防甲醛？</a><span>12-18</span></li>
+                        <li><a href="#">爱起球易掉色含甲醛</a><span>12-18</span></li>
+                        <li><a href="#">昆明业主问装修污染中 ...</a><span>12-18</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <a href="" class="btn btn-primary btn-xs pull-right">更多 <i class="glyphicon glyphicon-menu-right"></i></a>
+                    <h3 class="panel-title"> <i class="fa fa-list-ul"></i> 除甲醛知识</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="news">
+                        <li><a href="#">它的致癌风险大于竟大于甲醛</a> <span>12-18</span></li>
+                        <li><a href="#">室内污染“八大综合征”</a><span>12-18</span></li>
+                        <li><a href="#">新房装修过后你就入住很</a><span>12-18</span></li>
+                        <li><a href="#">家居装修窗帘怎么防甲醛？</a><span>12-18</span></li>
+                        <li><a href="#">爱起球易掉色含甲醛</a><span>12-18</span></li>
+                        <li><a href="#">昆明业主问装修污染中 ...</a><span>12-18</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <a href="" class="btn btn-primary btn-xs pull-right">更多 <i class="glyphicon glyphicon-menu-right"></i></a>
+                    <h3 class="panel-title"><i class="fa fa-list-ul"></i> 除甲醛知识</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="news">
+                        <li><a href="#">它的致癌风险大于竟大于甲醛</a> <span>12-18</span></li>
+                        <li><a href="#">室内污染“八大综合征”</a><span>12-18</span></li>
+                        <li><a href="#">新房装修过后你就入住很</a><span>12-18</span></li>
+                        <li><a href="#">家居装修窗帘怎么防甲醛？</a><span>12-18</span></li>
+                        <li><a href="#">爱起球易掉色含甲醛</a><span>12-18</span></li>
+                        <li><a href="#">昆明业主问装修污染中 ...</a><span>12-18</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--服务流程-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-object-ungroup"></i> 服务流程</h3>
+        </div>
+        <div class="panel-body">
+            <img src="images/lc.gif" width="100%" alt="">
+        </div>
+    </div>
+
+    <!--友情链接-->
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-tags"></i> 友情链接</h3>
+        </div>
+        <div class="panel-body">
+            <a href="">友情链接</a> | <a href="">友情链接</a> | <a href="">友情链接</a> | <a href="">友情链接</a> | <a href="">友情链接</a> | <a href="">友情链接</a>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <dl>
+                    <dt>北京XX环保科技公司</dt>
+                    <dd>联系地址：北京市</dd>
+                    <dd>联系电话：010-888888</dd>
+                    <dd>联系邮箱：youname@name.com</dd>
+                    <dd>版权所有© epgaojie.com </dd>
+                </dl>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/ep.js"></script>
+</body>
+</html>

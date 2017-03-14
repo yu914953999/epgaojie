@@ -1,0 +1,101 @@
+body{
+    font-family: "Microsoft YaHei";
+    line-height: 1.6;
+}
+a { color: #333;}
+.dh { margin-bottom: 0;}
+.dh .navbar-nav > li.active > a {
+    color: #fff;
+    background: #2e6da4;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.dh .navbar-nav > li > a:hover,.dh .navbar-nav > li > a:active,.dh .navbar-nav > li > a:focus {
+    background: #2e6da4;
+    color: #fff;
+}
+.dh .navbar-nav > .open > a, .dh .navbar-nav > .open > a:hover, .dh .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #2e6da4;
+}
+.swiper-container {
+    height: 450px;
+}
+.swiper-slide { background-size: cover; background-repeat:no-repeat; background-position: center center;}
+.swiper-container2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.swiper-container2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 180px;
+    position: relative;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container2 .swiper-slide a img { height: 100%; width: 100%;}
+.swiper-container2 .swiper-slide h3 { position: absolute; width: 100%; background: rgba(0,0,0,0.6); color: #fff; bottom:0; left: 0;  font-size: 14px; padding: 5px 0; margin: 0;}
+.mg-b-15 {margin-bottom: 15px;}
+.mg-b-20 {margin-bottom: 20px;}
+
+.eptabs > .nav  {
+    border:1px solid #ddd;
+    background: #f5f5f5;
+}
+.eptabs .nav > li {
+    margin-right: 0;
+    margin-left: 0;
+}
+.eptabs .nav > li > a {
+    border-radius: 0;
+    border-right:1px solid #ddd;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.eptabs .tab-content { border:1px solid #ddd; border-top: 0; }
+
+.news { padding-left: 20px;}
+.news li { line-height: 2.4; border-bottom:1px dashed #eee;}
+.news li span { float: right; color: #ddd;}
+
+.fwxm {}
+.fwxm .pic { position: relative;}
+.fwxm .pic h3{ position: absolute; bottom:0; left: 0; width: 100%; display: block; color:#f5f5f5; background: rgba(0,0,0,0.7); font-size: 18px; padding: 10px 0; margin-bottom: 0; text-align: center;}
+.fwxm .pic img { width: 100%;}
+
+.footer { background: #27272d; padding: 20px; color: #999; }
+.footer a { color: #999; }
+
+.lujing { background: none; margin: 0; padding: 0;}
+.newsList  li { border-bottom: 1px dashed #ddd; padding: 10px;transition: all 0.5s ease;}
+.newsList  li:hover { background: #f5f5f5; transition: all 0.5s ease;}
+.newsTime { color: #ddd;}
+
+@media screen and (max-width: 768px){
+    .swiper-container {
+        height: 180px;
+    }
+    .swiper-container2 {
+        height: auto;
+    }
+    .swiper-container2 .swiper-slide {display: block;}
+}
+.mg-t-50 { margin-top: 50px;}
