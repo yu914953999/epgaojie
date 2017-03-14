@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 "><img src="images/logo.jpg" width="100%" alt=""></div>
+            <div class="col-md-4 ">电话</div>
+        </div>
+    </div>
+    <!--导航-->
+    <div class="navbar navbar-default dh">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">公司简介</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">尖端技术 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">产品展示</a></li>
+                    <li><a href="#">检测项目</a></li>
+                    <li><a href="#">治理项目</a></li>
+                    <li><a href="#">新闻动态</a></li>
+                    <li><a href="#">工程案例</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</div>
+<!--轮播图-->
+<div class="swiper-container mg-b-20">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('images/jd1.jpg');"></div>
+        <div class="swiper-slide" style="background-image:url('images/jd2.jpg');"></div>
+        <div class="swiper-slide" style="background-image:url('images/jd3.jpg');"></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+</div>
+<!--主体-->
+<div class="container">
+    <p>
+        <ol class="breadcrumb lujing">
+            <li><a href="#"><span class="fa fa-home"></span> Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ol>
+    </p>
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="list-group">
+                <a href="#" class="list-group-item active"> <i class="glyphicon glyphicon-th"></i> 产品展示 </a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item active"><i class="glyphicon glyphicon-th"></i> 联系方式</li>
+                <li class="list-group-item"><i class="fa fa-home"></i> 地址：北京市</li>
+                <li class="list-group-item"><i class="fa fa-phone-square"></i> 电话：010-9999999</li>
+                <li class="list-group-item"><i class="fa fa-envelope"></i> 邮箱：dif @jsad.com</li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="glyphicon glyphicon-th-list"></i> 产品列表</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="images/cp01.jpg" alt="产品">
+                                <h5 class="text-center">产品名称</h5>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="images/cp01.jpg" alt="产品">
+                                <h5 class="text-center">产品名称</h5>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="images/cp01.jpg" alt="产品">
+                                <h5 class="text-center">产品名称</h5>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="images/cp01.jpg" alt="产品">
+                                <h5 class="text-center">产品名称</h5>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="images/cp01.jpg" alt="产品">
+                                <h5 class="text-center">产品名称</h5>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="images/cp01.jpg" alt="产品">
+                                <h5 class="text-center">产品名称</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/ep.js"></script>
+</body>
+</html>
